@@ -5,10 +5,10 @@ import java.util.concurrent.*;
 
 public class ProxyServer {
 
-    private static String username = "1111";
-    private static String password = "eeee";
+    private static String username = "";
+    private static String password = "";
     private static int port = 9981;
-    private static String nextProxy = "43.138.108.171";
+    private static String nextProxy = "";
     private static int nextProxyPort = 9981;
     private static boolean daemon = false;
 
